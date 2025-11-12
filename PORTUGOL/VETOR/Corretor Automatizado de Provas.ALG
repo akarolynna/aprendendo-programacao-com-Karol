@@ -28,8 +28,6 @@ No final, o programa deve exibir:
 e **laços de repetição** para permitir corrigir várias provas até o usuário decidir parar.
 }
 
-
-
 Algoritmo "semnome"
 
 Var
@@ -99,4 +97,5 @@ Inicio
 
 
 Fimalgoritmo
+
 
