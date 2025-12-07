@@ -1,3 +1,29 @@
+
+{
+🌟 DESAFIO DE PROGRAMAÇÃO - FUNDAMENTOS 💻
+------------------------------------------
+📅 Data de criação: 07/12/2025
+✍️ Autora: Anna Karolynna Mota 
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Pascalzinho
+
+🧩 🔐Desafio da Criptografia Secreta:
+Você recebeu uma mensagem misteriosa e precisa transformá-la em um código secreto!
+Crie um algoritmo que leia uma frase e a criptografe substituindo as vogais pelas letras indicadas abaixo:
+
+| Vogal | Código |
+| ----- | ------ |
+| A     | X      |
+| E     | Y      |
+| I     | W      |
+| O     | K      |
+| U     | Z      |
+
+💻 EXEMPLO:
+Informe uma palavra: DIA
+Palavra criptografada: DWX
+}
+
 Program Pzim ;
 var
 i: integer;
@@ -16,7 +42,7 @@ Begin
     write('Informe uma palavra: ');
     readln(palavra);
     
-    write('PALAVRA CRIPTOGRAFADA: ');
+    write('Palavra criptografada:  ');
     for i:=1 to length(palavra) do
     begin
       if (palavra[i] = 'A') or (palavra[i] = 'a') then
@@ -41,4 +67,5 @@ Begin
       write('Deseja continuar: ');
       readln(deseja_continuar);
     end;
+
   End.
