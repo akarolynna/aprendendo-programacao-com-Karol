@@ -1,3 +1,21 @@
+{
+🌟 DESAFIO DE PROGRAMAÇÃO - FUNDAMENTOS 💻
+------------------------------------------
+📅 Data de criação: 07/12/2025
+✍️ Autora: Anna Karolynna Mota 
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Pascalzinho
+
+🧩 DESCRIÇÃO:
+💡 Crie um algoritmo que leia uma palavra e exiba uma pirâmide formada pela repetição dessa palavra. Exemplo:
+SONHO
+SONHO SONHO
+SONHO SONHO SONHO
+SONHO SONHO SONHO SONHO
+SONHO SONHO SONHO SONHO SONHO
+
+}
+
 Program Pzim ;
 var
 palavra: string;
@@ -15,4 +33,5 @@ Begin
   
   
   
+
 End.
