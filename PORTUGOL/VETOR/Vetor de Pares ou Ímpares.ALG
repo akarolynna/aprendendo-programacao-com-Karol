@@ -1,17 +1,24 @@
+{
+ðŸŒŸ DESAFIO DE PROGRAMAÃ‡ÃƒO - FUNDAMENTOS ðŸ’»
+------------------------------------------
+ðŸ“… Data de criaÃ§Ã£o: 10/12/2025
+âœï¸ Autora: Anna Karolynna Mota 
+ðŸ« Instituto Federal Fluminense - Campus Itaperuna
+ðŸŽ¯ Linguagem: Pascalzinho
+
+ðŸ§© DescriÃ§Ã£o: Crie um programa que armazene 15 nÃºmeros inteiros e depois imprima uma listagem destes nÃºmeros os classificando em nÃºmero par ou Ã­mpar. 
+}
+
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 10/12/2025
+
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    vetorInteiro: vetor[1..15] de inteiro
    i: inteiro
 
 Inicio
    para i de 1 ate 15 faca
-      escreva("Informe um número: ")
+      escreva("Informe um nÃºmero: ")
       leia(vetorInteiro[i])
    fimpara
    
@@ -19,7 +26,8 @@ Inicio
    se (vetorInteiro[i] mod 2 = 0) entao
    escreval(vetorInteiro[i], " => par")
    senao
-   escreval(vetorInteiro[i], " => ímpar")
+   escreval(vetorInteiro[i], " => Ã­mpar")
    fimse
    fimpara
+
 Fimalgoritmo
