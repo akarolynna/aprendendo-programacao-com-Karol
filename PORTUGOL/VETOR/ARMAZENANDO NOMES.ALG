@@ -7,7 +7,7 @@
 🏫 Instituto Federal Fluminense - Campus Itaperuna
 🎯 Linguagem: Portugol
 
-Enunciado:Crie um algoritmo que armazene em um vetor NOME e imprima uma listagem numerada. 
+🧩  Enunciado: Crie um algoritmo que armazene em um vetor NOME e imprima uma listagem numerada. 
 
 }
 Algoritmo "semnome"
@@ -29,3 +29,4 @@ Inicio
 
 
 Fimalgoritmo
+
