@@ -1,9 +1,17 @@
+
+{
+ğŸŒŸ DESAFIO DE PROGRAMAÃ‡ÃƒO - FUNDAMENTOS ğŸ’»
+------------------------------------------
+ğŸ“… Data de criaÃ§Ã£o: 10/12/2025
+âœï¸ Autora: Anna Karolynna Mota 
+ğŸ« Instituto Federal Fluminense - Campus Itaperuna
+ğŸ¯ Linguagem: Portugol
+
+Enunciado:Crie um algoritmo que armazene em um vetor NOME e imprima uma listagem numerada. 
+
+}
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 10/12/2025
+
 Var
    nomes: vetor[1..10] de caracter
    i: inteiro
@@ -18,5 +26,6 @@ Inicio
    para i de 1 ate 10 faca
    escreval("[",i,"]: ", nomes[i])
    fimpara
+
 
 Fimalgoritmo
