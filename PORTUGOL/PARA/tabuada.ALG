@@ -1,18 +1,25 @@
+{
+ğŸŒŸ DESAFIO DE PROGRAMAÃ‡ÃƒO - FUNDAMENTOS ğŸ’»
+------------------------------------------
+ğŸ“… Data de criaÃ§Ã£o: 10/12/2025
+âœï¸ Autora: Anna Karolynna Mota 
+ğŸ« Instituto Federal Fluminense - Campus Itaperuna
+ğŸ¯ Linguagem: Portugol
 
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 10/12/2025
+Enunciado:
+Crie um algoritmo que deixe o usuÃ¡rio escolher qual tabuada de multiplicar ele deseja e imprimi-la na tela.Acrescido de um laÃ§o enquanto para continuar repetindo atÃ© o usuÃ¡rio digitar nÃ£o.
+
+}
+Algoritmo "tabuada"
+
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    resultado,i, tabuada: inteiro
    continuar: caractere
 Inicio
 continuar:= "sim"
    enquanto (continuar  = "sim") faca
-      escreva("Qual tabuada você deseja: ")
+      escreva("Qual tabuada vocÃª deseja: ")
       leia(tabuada)
 
       para i de 1 ate 10 faca
@@ -22,5 +29,6 @@ continuar:= "sim"
       escreva("Deseja continuar: ")
       leia(continuar)
    fimenquanto
+
 
 Fimalgoritmo
