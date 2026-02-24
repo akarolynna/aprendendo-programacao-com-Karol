@@ -1,3 +1,28 @@
+{
+🌟 DESAFIO DE PROGRAMAÇÃO - FUNDAMENTOS 💻
+------------------------------------------
+📅 Data de criação: 24/02/2025
+✍️ Autora: Anna Karolynna Mota 
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Pascalzinho
+
+🖥️ ENUNCIADO:
+Desenvolva um programa em Pascal que simule um pequeno sistema de cadastro de pessoas 👤.
+
+O programa deverá:
+❓ Perguntar se o usuário deseja cadastrar uma nova pessoa.
+🔁 Enquanto a resposta for positiva, solicitar a idade da pessoa 🎂.
+
+Ao final dos cadastros, o programa deverá informar:
+
+🧑‍🤝‍🧑Quantas pessoas possuem menos de 21 anos
+🧑‍🤝‍🧑Quantas pessoas possuem mais de 50 anos
+🧑‍🤝‍🧑 Quantas pessoas foram cadastradas ao total
+
+} 
+
+
+
 Program Pzim ;
 var
 deseja_cadastrar_nova_pessoa: string;
@@ -9,7 +34,7 @@ Begin
   qtd_pessoas_cadastradas :=0;
   writeln('------ CADASTRO DE PESSOAS ------');
   writeln;
-  write('Bem-vindo ao programa de Cadastro de Pessoas. Para dar in�cio, digite sim:  ') ;
+  write('Bem-vindo ao programa de Cadastro de Pessoas. Para dar início, digite sim:  ') ;
   readln(deseja_cadastrar_nova_pessoa);
   
   while deseja_cadastrar_nova_pessoa = 'sim' do
@@ -36,4 +61,5 @@ Begin
   writeln('QTD PESSOAS COM MAIS  DE 50 ANOS: ', qtd_maior_50);
   writeln('QTD PESSOAS REGISTRADAS NO SISTEMA: ', qtd_pessoas_cadastradas);
   
+
 End.
