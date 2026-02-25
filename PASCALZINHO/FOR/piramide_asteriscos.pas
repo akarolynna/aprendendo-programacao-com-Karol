@@ -1,7 +1,7 @@
 {
 🌟 DESAFIO DE PROGRAMAÇÃO - FUNDAMENTOS 💻
 ------------------------------------------
-📅 Data de criação: 07/12/2025
+📅 Data de criação: 24/02/2025
 ✍️ Autora: Anna Karolynna Mota 
 🏫 Instituto Federal Fluminense - Campus Itaperuna
 🎯 Linguagem: Pascalzinho
@@ -39,3 +39,4 @@ Begin
   
 
 End.
+
