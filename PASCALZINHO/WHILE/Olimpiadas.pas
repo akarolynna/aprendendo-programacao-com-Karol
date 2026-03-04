@@ -1,3 +1,50 @@
+{
+🌟 DESAFIO DE PROGRAMAÇÃO - ESTRUTURAS DE REPETIÇÃO E ACUMULADORES 💻
+
+📅 Data de criação: 04/03/2026
+✍️ Autora: Anna Karolynna Mota
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Pascalzinho
+
+✨ Crie um programa que leia um conjunto de informações (nome, sexo, idade, peso e altura) dos atletas que participaram de uma olimpíada 🏅.
+
+O programa deverá informar:
+
+• A atleta do sexo feminino mais alta 📏;
+• O atleta do sexo masculino mais pesado ⚖️;
+• A média de idade dos atletas 🧮;
+• A quantidade total de atletas participantes 👥.
+
+📌 Observação:
+Os dados deverão ser lidos até que seja digitado o nome "@" para um atleta. Quando isso ocorrer, o programa deve encerrar a leitura e apresentar os resultados.
+
+## 🧪 CASO DE USO PARA TESTE
+
+### Entrada:
+
+| Nome  | Sexo | Idade | Peso (kg) | Altura (m) |
+|-------|------|-------|-----------|------------|
+| Ana   | F    | 25    | 60        | 1.80       |
+| Beto  | M    | 30    | 95        | 1.75       |
+| Carla | F    | 22    | 55        | 1.85       |
+| Diego | M    | 28    | 88        | 1.90       |
+| @     | -    | -     | -         | -          |
+
+
+###📊 SAÍDA ESPERADA
+
+Atleta feminina mais alta: CARLA
+Altura do(a) atleta CARLA: 1.85
+
+Atleta masculino mais pesado: BETO
+Peso do(a) atleta BETO: 95.00 Kg
+
+Média de idade dos participantes: 26.25
+QTD participantes: 4
+
+}
+
+
 Program Pzim ;
 var
 deseja, nome, nome_atleta_mais_alta, nome_atleta_mais_pesado:string;
@@ -70,6 +117,7 @@ Begin
   writeln('Atleta masculino mais pesado: ',nome_atleta_mais_pesado );
   writeln('Peso do(a) atleta ', nome_atleta_mais_pesado, ': ',quilos_atleta_mais_pesado:0:2, 'Kg' );
   writeln;
-  writeln('M�dia de idade dos participantes: ',media_idade:0:2);
+  writeln('Média de idade dos participantes: ',media_idade:0:2);
   writeln('QTD participantes: ',qtd_participantes );
+
 End.
