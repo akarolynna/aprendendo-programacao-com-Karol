@@ -1,3 +1,16 @@
+{
+🌟 DESAFIO DE PROGRAMAÇÃO - FUNDAMENTOS 💻
+------------------------------------------
+📅 Data de criação: 12/03/2025
+✍️ Autora: Anna Karolynna Mota 
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Pascalzinho
+
+🧩 DESCRIÇÃO: Escreva um programa em Pascal que:
+ Leia 20 números inteiros;
+ Armazene em um vetor;
+ Mostre os números em ordem inversa;
+}
 Program Pzim ;
 
 const
@@ -9,7 +22,7 @@ var
 Begin
   for i:=1 to tamanho do
   begin
-    write('Entre com um n�mero: ');
+    write('Entre com um número: ');
     readln(vetor_numeros[i]);
   end;
   
@@ -21,4 +34,5 @@ Begin
   write(vetor_numeros[i], ' | ');
   
   
+
 End.
