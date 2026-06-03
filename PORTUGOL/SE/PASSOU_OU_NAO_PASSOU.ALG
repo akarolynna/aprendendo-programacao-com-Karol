@@ -1,3 +1,26 @@
+{
+🌟 DESAFIO DE PROGRAMAÇÃO - FUNDAMENTOS 💻
+------------------------------------------
+📅 Data de criação: 03/06/2026
+✍️ Autora: Anna Karolynna Mota 
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Pascalzinho
+
+📚📝 Desafio: Média do Aluno 🎓💯 Faça um programa no VisualG que leia o nome de um aluno, a nota da Prova 1 e a nota da Prova 2.
+🧮 Em seguida, o programa deve calcular a média das notas e exibir na tela: 👤 o nome do aluno, 📄 a nota da Prova 1, 📄 a nota da Prova 2, 📊 a média final e ✅❌ a situação do aluno
+
+🚦 Tabela :
+┌──────────────────────────────┬──────────────────────────┬
+│              MÉDIA           │          SITUAÇÃO        │
+├──────────────────────────────┼──────────────────────────┼
+│ Média maior ou igual a 7     │        APROVADO          │ 
+│ Média menor que 3            │        REPROVADO         │ 
+│ Média entre 3 e 6.9          │       EM PROVA FINAL     │  
+└──────────────────────────────┴──────────────────────────┴
+}
+
+
+
 Algoritmo "passou_ou_nao_passou"
 
 Var
@@ -33,7 +56,7 @@ Inicio
    escreval("PROVA 1 : ", prova1)
    escreval("PROVA 2 : ", prova2)
    escreval(" ----------------------")
-   escreval("M�DIA   : ", media_final:2:2)
+   escreval("MÉDIA   : ", media_final:2:2)
    escreval("STATUS  : ", status)
 
 
