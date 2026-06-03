@@ -1,5 +1,18 @@
+{
+📅 Data de criação: 03/06/2026  
+👩‍💻 Autora: Ana Karolynna Mota  
+🎯 Desafio: Ordem crescente
+
+📘 Descrição:
+Faça um programa no VisualG que leia três números inteiros e mostre os valores em ordem crescente( do menor para o maior)
+
+💡 Dica: use o  🧮 operador **MOD** para verificar se o número é divisível por 2  
+(ou seja, se o resto da divisão for 0 → número par; caso contrário → ímpar).
+
+}
+
+
 Algoritmo "ordem_crescente"
-// Data atual  : 03/06/2026
 Var
    num1, num2, num3, aux: inteiro
 
