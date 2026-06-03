@@ -1,10 +1,10 @@
 {
-?? Data de criação: 03/06/2026
-????? Autora: Ana Karolynna Mota
-?? Desafio: Ordem crescente
+ğŸ“… Data de criaÃ§Ã£o: 03/06/2026  
+ğŸ‘©â€ğŸ’» Autora: Ana Karolynna Mota  
+ğŸ¯ Desafio: Ordem crescente
 
-?? Descrição:
-Faça um programa no VisualG que leia três números inteiros e mostre os valores em ordem crescente( do menor para o maior)
+ğŸ“˜ DescriÃ§Ã£o:
+FaÃ§a um programa no VisualG que leia trÃªs nÃºmeros inteiros e mostre os valores em ordem crescente( do menor para o maior)
 }
 
 
@@ -14,11 +14,11 @@ Var
 
 
 Inicio
-   escreva("Informe um número: ")
+   escreva("Informe um nÃºmero: ")
    leia(num1)
-   escreva("Informe o segundo número: ")
+   escreva("Informe o segundo nÃºmero: ")
    leia(num2)
-   escreva("Informe o terceiro número: ")
+   escreva("Informe o terceiro nÃºmero: ")
    leia(num3)
 
    se (num1 > num2) entao
