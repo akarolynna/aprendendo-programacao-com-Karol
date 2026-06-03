@@ -5,10 +5,6 @@
 
 📘 Descrição:
 Faça um programa no VisualG que leia três números inteiros e mostre os valores em ordem crescente( do menor para o maior)
-
-💡 Dica: use o  🧮 operador **MOD** para verificar se o número é divisível por 2  
-(ou seja, se o resto da divisão for 0 → número par; caso contrário → ímpar).
-
 }
 
 
