@@ -14,13 +14,13 @@ Faça um programa que entre com vários números enquanto estes forem positivos,
 
 
 let soma = 0;
-let numeros = Number(prompt("Informe o número: "))
+let numeros = Number(prompt("Informe o número: "));
 while (numeros > 0){
     soma = soma + numeros; // A variável SOMA é uma variável ACUMULATIVA
-    numeros = Number(prompt("Informe o número:"))
+    numeros = Number(prompt("Informe o número:"));
 }
 
-console.log(`SOMA DE TODOS OS NÚMEROS: ${soma}`)
+console.log(`SOMA DE TODOS OS NÚMEROS: ${soma}`);
 
 /*
  ----------- VARIÁVEIS ACUMULATIVAS  -----------
