@@ -1,3 +1,18 @@
+/*
+
+💻 EXERCÍCIO DE PROGRAMAÇÃO — JAVASCRIPT
+==========================================
+📅 Data de criação: 02/09/2026
+👩‍💻 Autora: Anna Karolynna Mota
+🎓 Instituto Federal Fluminense — Campus Itaperuna
+📝 Linguagem: JavaScript
+
+🧩 DESCRIÇÃO
+O programa recebe números enquanto forem positivos
+e informa a quantidade de números positivos digitados.
+
+*/
+
 let numero;
 /* Inicializamos a variável com 0, pois ela será usada como um contador. 
 Assim, garantimos que ela comece com 0, em vez de pegar algum valor
