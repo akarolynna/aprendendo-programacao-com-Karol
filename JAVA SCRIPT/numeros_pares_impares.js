@@ -8,11 +8,7 @@
 📝 Linguagem: JavaScript
 
 🧩 DESCRIÇÃO
-Faça um programa que leia 10 números e informe quantos deles são pares e quantos deles são ímpares
-*/
 
-
-/*
 Criamos as variáveis: qtd_numeros_pares e qtd_numeros_impares aqui em cima, pois assim elas podem ser
 acessadas fora do loop for, como foi no nosso caso. Se eu as criasse dentro de um bloco de comandos,
 aqueles que acompanham chaves {}, elas seriam apenas variáveis locais e só poderiam ser acessadas dentro
