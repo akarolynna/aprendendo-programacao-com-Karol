@@ -18,8 +18,8 @@ acessadas fora do loop for, como foi no nosso caso. Se eu as criasse dentro de u
 aqueles que acompanham chaves {}, elas seriam apenas variáveis locais e só poderiam ser acessadas dentro
 daquele bloco. Assim, quando eu desse um console.log(qtd_numeros_pares) eu não conseguiria vizualizar seu valor. 
 */
-let qtd_numeros_pares = 0 
-let qtd_numeros_impares = 0
+let qtd_numeros_pares = 0; 
+let qtd_numeros_impares = 0;
 
 for (let i = 1; i <=10; i++){ // Usamos o laço de repetição FOR, pois o enunciado nos informou quantas vezes o programa irá ser executado.
     let numero = Number(prompt("Informe o número: "));
