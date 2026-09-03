@@ -18,7 +18,7 @@ let numero = Number(prompt("Informe um número: "));
 let media;
 
 while (numero > 0){
-    console.log(`${numero}`)
+    console.log(`${numero}`);
     soma = soma + numero;
     quantidade_de_numeros_positivos = quantidade_de_numeros_positivos + 1;
     numero = Number(prompt("Informe um número: "));
