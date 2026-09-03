@@ -1,3 +1,17 @@
+/*
+
+💻 EXERCÍCIO DE PROGRAMAÇÃO — JAVASCRIPT
+==========================================
+📅 Data de criação: 02/09/2026
+👩‍💻 Autora: Anna Karolynna Mota
+🎓 Instituto Federal Fluminense — Campus Itaperuna
+📝 Linguagem: JavaScript
+
+🧩 DESCRIÇÃO
+Entrar com vários números positivos e imprimira média dos números digitados.
+*/
+
+
 let soma = 0; 
 let  quantidade_de_numeros_positivos = 0;
 let numero = Number(prompt("Informe um número: "));
