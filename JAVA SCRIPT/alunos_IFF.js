@@ -1,3 +1,19 @@
+/*
+
+💻 EXERCÍCIO DE PROGRAMAÇÃO — JAVASCRIPT
+==========================================
+📅 Data de criação: 02/09/2026
+👩‍💻 Autora: Anna Karolynna Mota
+🎓 Instituto Federal Fluminense — Campus Itaperuna
+📝 Linguagem: JavaScript
+
+🧩 DESCRIÇÃO
+Em uma Instituição Federal, os alunos das turmas de informática fizeram
+uma prova de algoritmos. Cada turma possui 10 alunos. Crie um programa que imprima:
+• A quantidade de alunos aprovados
+• A quantidade de alunos reprovados
+• A média geral da turma.
+*/
 
 let qtd_aprovado = 0;
 let qtd_reprovado = 0; 
