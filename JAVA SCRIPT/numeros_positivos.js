@@ -8,8 +8,7 @@
 📝 Linguagem: JavaScript
 
 🧩 DESCRIÇÃO
-O programa recebe números enquanto forem positivos
-e informa a quantidade de números positivos digitados.
+Entrar com números enquanto forem positivos e imprimir quantos números foram digitados.
 
 */
 
