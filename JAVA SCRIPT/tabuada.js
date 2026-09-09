@@ -13,7 +13,7 @@ Crie um programa que solicite um número inteiro e imprima a tabuada desse núme
 
 let numero = parseInt(prompt("A tabuada de qual número você deseja ver?")); 
 
-console.log(`= = = = = Tabuada de ${numero} = = = = = = `)
+console.log(`= = = = = Tabuada de ${numero} = = = = = = `);
 for(let i = 1; i <= 10; i++){
     let resultado = numero * i;
     console.log(`${numero} X ${i} = ${resultado}`);
