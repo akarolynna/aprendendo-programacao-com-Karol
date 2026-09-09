@@ -16,7 +16,7 @@ A ideia deste enunciado é simularmos o comportamento de 2 dados ao serem lança
  Então sabemos exatamente quais os possiveis valores que um dado pode assumir no lançamento (1,2,3,4,5,6). Quando sabemos o intervalo usamos o laço FOR. 
 */
 
-console.log(" = = = = = = Possíveis combinações = = = = = = ")
+console.log(" = = = = = = Possíveis combinações = = = = = = ");
 /*
 i = 1, pois a 1° face de um dado começa em 1
 i <=6, pois no dado temos as faces indo até 6.
