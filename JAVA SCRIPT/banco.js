@@ -25,8 +25,8 @@ programa deverá imprimir:
 
 console.log("===== BEM-VINDO AO BANCO IMOBILIÁRIO ===== ");
 
-let deseja_continuar = prompt("Acessar banco? S/N: ")
-let saldo = 0.0 
+let deseja_continuar = prompt("Acessar banco? S/N: ");
+let saldo = 0.0 ;
 let qtd_depositos = 0;
 let qtd_saques = 0;
 let qtd_saque_que_nao_foram_realizados= 0;
@@ -42,14 +42,14 @@ Caso não queria usar este IF, pode fazer normal, mas mesmo que o usuário respo
 Assim: 
 */
  if (deseja_continuar !== 'N'){
-    saldo = parseFloat(prompt('Informe o saldo inicial: R$'))
+    saldo = parseFloat(prompt('Informe o saldo inicial: R$'));
  }
 
 
 
 while (deseja_continuar !== "N") {
-    let operacao = prompt("Qua operação deseja? D (para depósito) ou S (para saque):")
-    let valor = parseFloat(prompt("Informe o valor: R$"))
+    let operacao = prompt("Qua operação deseja? D (para depósito) ou S (para saque):");
+    let valor = parseFloat(prompt("Informe o valor: R$"));
 
     if (operacao == "D"){
         // Fazer o depósito significa que estamos adicionando um valor ao saldo do usuário. Por isso, chamei a variável saldo ali e outro ponto
@@ -68,12 +68,12 @@ while (deseja_continuar !== "N") {
             // Quando realizamos o saque estamos retirando dinheiro da nossa conta e isso precisa refletir no quanto o usuário tem em banco.
 
             saldo = saldo - valor;
-            qtd_saques = qtd_saques + 1 // mesma lógica da qtd_depositos.
+            qtd_saques = qtd_saques + 1; // mesma lógica da qtd_depositos.
             total_saques = total_saques + valor; //mesma lógica do total_depositos.
 
         } else{
             console.log("Saldo insuficiente! Operação não pode ser concluída! ");
-            qtd_saque_que_nao_foram_realizados = qtd_saque_que_nao_foram_realizados + 1 // mesma lógica da qtd_depositos.
+            qtd_saque_que_nao_foram_realizados = qtd_saque_que_nao_foram_realizados + 1; // mesma lógica da qtd_depositos.
         }
     } else{
         console.log("Operação Inválida!");
