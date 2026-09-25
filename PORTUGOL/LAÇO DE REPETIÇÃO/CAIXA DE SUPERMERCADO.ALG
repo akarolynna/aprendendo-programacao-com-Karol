@@ -14,11 +14,11 @@ Crie um algoritmo que simule o funcionamento de um caixa de supermercado. Ao ini
 4 - Finalizar compra
 
 O usuário poderá registrar vários produtos durante a compra. 
--Ao escolher a opção 1, o programa deverá solicitar o preço do produto e a quantidade de unidades.
--Ao escolher a opção 2, o programa deverá solicitar o preço por quilograma e a quantidade em quilogramas.
--Ao escolher a opção3, o programa deverá apresentar o total acumulado da compra.
--Ao escolher a opção4, o programa deverá informar o valor final da compra e ser encerrado.
--Se for escohido uma opção diferente das apresentadas, mostrar a mensagem opção inválida.
+- Ao escolher a opção 1, o programa deverá solicitar o preço do produto e a quantidade de unidades.
+- Ao escolher a opção 2, o programa deverá solicitar o preço por quilograma e a quantidade em quilogramas.
+- Ao escolher a opção3, o programa deverá apresentar o total acumulado da compra.
+- Ao escolher a opção4, o programa deverá informar o valor final da compra e ser encerrado.
+- Se for escohido uma opção diferente das apresentadas, mostrar a mensagem opção inválida.
 
 O programa deverá permitir que o cliente registre vários produtos, utilizando o menu até que a opção 4 (Finalizar compra) seja escolhida. 
 }
