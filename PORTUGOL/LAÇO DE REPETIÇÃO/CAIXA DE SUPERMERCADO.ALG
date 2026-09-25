@@ -1,3 +1,31 @@
+🛒 Sistema de Caixa de Supermercado — AK. Empreendimentos - FUNDAMENTOS 💻
+📅 Data de criação: 25/09/2026
+✍️ Autora: Anna Karolynna Mota
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Portugol
+
+Enunciado:
+O supermercado AK. Empreendimentos deseja criar um sistema simples para auxiliar no atendimento de seus clientes no caixa.
+
+Crie um algoritmo que simule o funcionamento de um caixa de supermercado. Ao iniciar o atendimento, o sistema deverá apresentar um menu com as seguintes opções:
+1 - Registrar produto por unidade
+2 - Registrar produto por peso
+3 - Consultar total da compra
+4 - Finalizar compra
+
+O usuário poderá registrar vários produtos durante a compra. 
+-Ao escolher a opção 1, o programa deverá solicitar o preço do produto e a quantidade de unidades.
+-Ao escolher a opção 2, o programa deverá solicitar o preço por quilograma e a quantidade em quilogramas.
+-Ao escolher a opção3, o programa deverá apresentar o total acumulado da compra.
+-Ao escolher a opção4, o programa deverá informar o valor final da compra e ser encerrado.
+-Se for escohido uma opção diferente das apresentadas, mostrar a mensagem opção inválida.
+
+O programa deverá permitir que o cliente registre vários produtos, utilizando o menu até que a opção 4 (Finalizar compra) seja escolhida. 
+}
+
+
+
+
 Algoritmo "Caixa de Supermercado"
 
 Var
@@ -21,12 +49,12 @@ Inicio
       escreval(" |4 - Finalizar compra                |")
       escreval(" |------------------------------------")
       ESCREVAL("")
-      escreva("Informe a op��o desejada:")
+      escreva("Informe a opção desejada:")
       leia(opcao)
 
       escolha opcao
       caso 1
-         escreva("Informe o pre�o do produto: R$")
+         escreva("Informe o preço do produto: R$")
          leia(preco_produto)
          escreva("Informe a quantidade de unidades: ")
          leia(quantidade_unidadeS)
@@ -34,7 +62,7 @@ Inicio
          total_pagar_opcao_1:= total_pagar_opcao_1+ (preco_produto + quantidade_unidadeS)
 
       caso 2
-         escreva("Informe o pre�o por Kg do produto: R$")
+         escreva("Informe o preço por Kg do produto: R$")
          leia(preco_produto)
          escreva("Informe a quantidade de Kg: ")
          leia(quantidade_kg)
@@ -53,7 +81,7 @@ Inicio
 
 
       outrocaso
-         escreval("Op��o Inv�lida!")
+         escreval("Opção Inválida!")
 
       fimescolha
 
